@@ -70,7 +70,11 @@ public class GameTests {
     //NEED TWO MORE TESTS
   }
 
-
+  /**
+   * Checks to see if the setNext() method works properly
+   * 
+   * @return boolean describing if test is passed
+   */
   public static boolean testNode1() {
 
     GameNode testList1 = new GameNode(new Random()); // creates one GameNode
@@ -83,7 +87,7 @@ public class GameTests {
   }
 
   /**
-   * Checks to see if the applOperator() method workds properly
+   * Checks to see if the appylOperator() method works properly
    * 
    * @return boolean describing if test is passed
    */
@@ -100,7 +104,7 @@ public class GameTests {
   }
 
   /**
-   * 
+   * Checks to see if the addNode() method works properly
    * 
    * @return boolean describing if test is passed
    */
@@ -129,6 +133,11 @@ public class GameTests {
     return true; // true if all checks passed
   }
 
+  /**
+   * Checks to see if the applyOperatorToNumber() method works properly
+   * 
+   * @return boolean describing if test is passed
+   */
   public static boolean testList2() {
     GameList list = new GameList(); // creates a GameList
     GameNode node1 = new GameNode(new Random()); // creates a node to be added to list
